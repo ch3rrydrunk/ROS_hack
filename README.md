@@ -35,5 +35,6 @@
 Перед началом работы необходимо:
 1. Проверить, что все переменные среды установлены (env | grep ROS), если нет, то 
   http://wiki.ros.org/melodic/Installation раздел вашего дистрибутива и там пункт **Environment setup**.
-2. Развернуть среду `source devel/setup.bash`
+2. Развернуть среду `source catkin_ws/devel/setup.bash`
+2.1 Есть смысл добавить 2 пункт в `~/.bashrc`, чтобы открывая консоль, быть сразу в окружение проекта.
 3. Изучить команды из ROScheatsheet.pdf
